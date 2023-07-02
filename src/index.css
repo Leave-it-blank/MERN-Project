@@ -14,3 +14,10 @@
     z-index: 999;
     background-color: rgb(57, 54, 54);
 }
+
+.cursor-pointer {
+    cursor: pointer;
+    all: unset;
+    display: inline;
+ 
+}

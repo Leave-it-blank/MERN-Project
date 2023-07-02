@@ -20,7 +20,7 @@ export const SideBarMenu = [
     icon: 'fa-sharp fa-solid fa-user'
   },
   {
-    name: 'Logout',
+    name: 'OLD Logout',
     path: '/logout',
     icon: 'fa-solid fa-arrow-right-from-bracket'
   }
