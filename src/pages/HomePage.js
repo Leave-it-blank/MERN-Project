@@ -1,19 +1,19 @@
-import React from 'react'
-import { useEffect } from 'react'
-import axios from 'axios'
-import Layout from '../components/Layout'
-
+import React, { useEffect } from 'react';
+import axios from 'axios';
+import Layout from '../components/Layout';
 
 const HomePage = () => {
-
   // const getUserData = async () => {
   //   try {
-  //     const res = await axios.post('/api/v1/user/getUserData',{}, {
+  //     const res = await axios.post('/api/v1/user/getUserData',{},
+  //      {
   //       headers:{
   //         Authorization: "Bearer " + localStorage.getItem("token"),
   //       }
   //     }
+
   //     )
+  //    console.log(res.data);
   //   } catch (error) {
   //     console.log(error)
   //   }
@@ -21,13 +21,13 @@ const HomePage = () => {
 
   // useEffect(() => {
   //   getUserData()
-  // }, []) 
+  // }, [])
 
   return (
     <Layout>
       <h1>Home Page</h1>
     </Layout>
-  )
-}
+  );
+};
 
-export default HomePage
+export default HomePage;
